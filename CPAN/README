@@ -1,0 +1,10 @@
+ios version 0.0.1
+=================
+
+INSTALLATION
+
+  This module should not be installed separately from the ios framework.
+
+DEPENDENCIES
+
+This module requires the ios framework, which is included in this distribution.

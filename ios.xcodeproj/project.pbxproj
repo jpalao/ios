@@ -1,0 +1,1093 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		AA7F61620DCCFBA900D20E5E /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AA7F61710DCCFBA900D20E5E /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		82151A3D1CEFBCAC00FB511B /* AppMain.h in Headers */ = {isa = PBXBuildFile; fileRef = AA50E3A80C875DB7004DA7BD /* AppMain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82151A3F1CEFBCAC00FB511B /* CBPerl.h in Headers */ = {isa = PBXBuildFile; fileRef = AA50E3AB0C875DB7004DA7BD /* CBPerl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82151A4B1CEFBCAC00FB511B /* NativeMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = AA50E3C60C875DB7004DA7BD /* NativeMethods.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		82151A4D1CEFBCAC00FB511B /* PerlImports.h in Headers */ = {isa = PBXBuildFile; fileRef = AA50E3C80C875DB7004DA7BD /* PerlImports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82151A501CEFBCAC00FB511B /* perlxsi.h in Headers */ = {isa = PBXBuildFile; fileRef = AA50E3CD0C875DB7004DA7BD /* perlxsi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82151A5B1CEFBCAC00FB511B /* AppMain.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50E3A90C875DB7004DA7BD /* AppMain.m */; };
+		82151A611CEFBCAC00FB511B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA50E4280C875FA2004DA7BD /* Foundation.framework */; };
+		82151A641CEFBCAC00FB511B /* typemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA83FE0E0CC9E9CF00E56F20 /* typemap */; };
+		82151A6D1CEFBD1100FB511B /* CBPerl.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50E3AC0C875DB7004DA7BD /* CBPerl.m */; settings = {COMPILER_FLAGS = "-Wno-objc-protocol-method-implementation"; }; };
+		82151A761CEFBDEE00FB511B /* NativeMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50E3C70C875DB7004DA7BD /* NativeMethods.m */; };
+		82151A781CEFBDEE00FB511B /* perlxsi.c in Sources */ = {isa = PBXBuildFile; fileRef = AA50E3CC0C875DB7004DA7BD /* perlxsi.c */; };
+		82504F642763D96D003FACE3 /* ppport.h in Headers */ = {isa = PBXBuildFile; fileRef = 82504F632763D96D003FACE3 /* ppport.h */; };
+		82504F652763D96D003FACE3 /* ppport.h in Headers */ = {isa = PBXBuildFile; fileRef = 82504F632763D96D003FACE3 /* ppport.h */; };
+		826E03DD27616DB200BECAE0 /* typemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 826E03DC27616DB200BECAE0 /* typemap */; };
+		829161E11D4D561C006DF121 /* AppMain.h in Headers */ = {isa = PBXBuildFile; fileRef = AA50E3A80C875DB7004DA7BD /* AppMain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		829161E31D4D561C006DF121 /* CBPerl.h in Headers */ = {isa = PBXBuildFile; fileRef = AA50E3AB0C875DB7004DA7BD /* CBPerl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		829161EE1D4D561C006DF121 /* NativeMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = AA50E3C60C875DB7004DA7BD /* NativeMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		829161F01D4D561C006DF121 /* PerlImports.h in Headers */ = {isa = PBXBuildFile; fileRef = AA50E3C80C875DB7004DA7BD /* PerlImports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		829161F31D4D561C006DF121 /* perlxsi.h in Headers */ = {isa = PBXBuildFile; fileRef = AA50E3CD0C875DB7004DA7BD /* perlxsi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		829161FD1D4D561C006DF121 /* CBPerl.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50E3AC0C875DB7004DA7BD /* CBPerl.m */; settings = {COMPILER_FLAGS = "-Wno-objc-protocol-method-implementation"; }; };
+		829162021D4D561C006DF121 /* AppMain.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50E3A90C875DB7004DA7BD /* AppMain.m */; };
+		829162041D4D561C006DF121 /* NativeMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50E3C70C875DB7004DA7BD /* NativeMethods.m */; };
+		829162051D4D561C006DF121 /* perlxsi.c in Sources */ = {isa = PBXBuildFile; fileRef = AA50E3CC0C875DB7004DA7BD /* perlxsi.c */; };
+		829162111D4D561C006DF121 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA50E4280C875FA2004DA7BD /* Foundation.framework */; };
+		829162161D4D561C006DF121 /* typemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA83FE0E0CC9E9CF00E56F20 /* typemap */; };
+		82EAABCD25EC12D1000FE2FC /* NativeMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = AA50E3C60C875DB7004DA7BD /* NativeMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82EAABD025EC12D1000FE2FC /* AppMain.h in Headers */ = {isa = PBXBuildFile; fileRef = AA50E3A80C875DB7004DA7BD /* AppMain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82EAABD225EC12D1000FE2FC /* CBPerl.h in Headers */ = {isa = PBXBuildFile; fileRef = AA50E3AB0C875DB7004DA7BD /* CBPerl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82EAABDA25EC12D1000FE2FC /* PerlImports.h in Headers */ = {isa = PBXBuildFile; fileRef = AA50E3C80C875DB7004DA7BD /* PerlImports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82EAABDB25EC12D1000FE2FC /* perlxsi.h in Headers */ = {isa = PBXBuildFile; fileRef = AA50E3CD0C875DB7004DA7BD /* perlxsi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82EAABDF25EC12D1000FE2FC /* CBPerl.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50E3AC0C875DB7004DA7BD /* CBPerl.m */; settings = {COMPILER_FLAGS = "-Wno-objc-protocol-method-implementation"; }; };
+		82EAABE425EC12D1000FE2FC /* AppMain.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50E3A90C875DB7004DA7BD /* AppMain.m */; };
+		82EAABE625EC12D1000FE2FC /* NativeMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50E3C70C875DB7004DA7BD /* NativeMethods.m */; };
+		82EAABE725EC12D1000FE2FC /* perlxsi.c in Sources */ = {isa = PBXBuildFile; fileRef = AA50E3CC0C875DB7004DA7BD /* perlxsi.c */; };
+		82EAABF425EC12D1000FE2FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA50E4280C875FA2004DA7BD /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		82151A631CEFBCAC00FB511B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				82151A641CEFBCAC00FB511B /* typemap in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829162121D4D561C006DF121 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				829162161D4D561C006DF121 /* typemap in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EAABF525EC12D1000FE2FC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				826E03DD27616DB200BECAE0 /* typemap in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		82151A6B1CEFBCAC00FB511B /* ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82504F5B2763D96C003FACE3 /* Makefile.PL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; name = Makefile.PL; path = CPAN/Makefile.PL; sourceTree = SOURCE_ROOT; };
+		82504F5C2763D96C003FACE3 /* cb_common.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; name = cb_common.pl; path = CPAN/cb_common.pl; sourceTree = SOURCE_ROOT; };
+		82504F5D2763D96C003FACE3 /* META.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = META.yml; path = CPAN/META.yml; sourceTree = SOURCE_ROOT; };
+		82504F5E2763D96D003FACE3 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = CPAN/README; sourceTree = SOURCE_ROOT; };
+		82504F5F2763D96D003FACE3 /* MANIFEST */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MANIFEST; path = CPAN/MANIFEST; sourceTree = SOURCE_ROOT; };
+		82504F602763D96D003FACE3 /* MANIFEST.SKIP */ = {isa = PBXFileReference; lastKnownFileType = text; name = MANIFEST.SKIP; path = CPAN/MANIFEST.SKIP; sourceTree = SOURCE_ROOT; };
+		82504F612763D96D003FACE3 /* typemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = typemap; path = CPAN/typemap; sourceTree = SOURCE_ROOT; };
+		82504F622763D96D003FACE3 /* ios.xs */ = {isa = PBXFileReference; lastKnownFileType = text; name = ios.xs; path = CPAN/ios.xs; sourceTree = SOURCE_ROOT; };
+		82504F632763D96D003FACE3 /* ppport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ppport.h; path = CPAN/ppport.h; sourceTree = SOURCE_ROOT; };
+		82504F6E2763DD49003FACE3 /* ios.pm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = ios.pm; sourceTree = "<group>"; };
+		826E03DC27616DB200BECAE0 /* typemap */ = {isa = PBXFileReference; lastKnownFileType = text; name = typemap; path = CPAN/typemap; sourceTree = "<group>"; };
+		8291621D1D4D561C006DF121 /* ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EAABFE25EC12D1000FE2FC /* ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA50E3A80C875DB7004DA7BD /* AppMain.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppMain.h; sourceTree = "<group>"; };
+		AA50E3A90C875DB7004DA7BD /* AppMain.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AppMain.m; sourceTree = "<group>"; };
+		AA50E3AB0C875DB7004DA7BD /* CBPerl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CBPerl.h; sourceTree = "<group>"; };
+		AA50E3AC0C875DB7004DA7BD /* CBPerl.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CBPerl.m; sourceTree = "<group>"; };
+		AA50E3C60C875DB7004DA7BD /* NativeMethods.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NativeMethods.h; sourceTree = "<group>"; };
+		AA50E3C70C875DB7004DA7BD /* NativeMethods.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NativeMethods.m; sourceTree = "<group>"; };
+		AA50E3C80C875DB7004DA7BD /* PerlImports.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PerlImports.h; sourceTree = "<group>"; };
+		AA50E3CC0C875DB7004DA7BD /* perlxsi.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = perlxsi.c; sourceTree = "<group>"; };
+		AA50E3CD0C875DB7004DA7BD /* perlxsi.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = perlxsi.h; sourceTree = "<group>"; };
+		AA50E4280C875FA2004DA7BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		AA83FE0E0CC9E9CF00E56F20 /* typemap */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = typemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82151A5F1CEFBCAC00FB511B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82151A611CEFBCAC00FB511B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8291620E1D4D561C006DF121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829162111D4D561C006DF121 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EAABEF25EC12D1000FE2FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EAABF425EC12D1000FE2FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84AC1BA80D73807100C751F7 /* t */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = t;
+			sourceTree = "<group>";
+		};
+		AA50E2030C87571F004DA7BD = {
+			isa = PBXGroup;
+			children = (
+				826E03DC27616DB200BECAE0 /* typemap */,
+				AA50E3A70C875D23004DA7BD /* ios */,
+				AA50E4130C875E1D004DA7BD /* Libraries */,
+				AA50E2330C87587B004DA7BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA50E2330C87587B004DA7BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82151A6B1CEFBCAC00FB511B /* ios.framework */,
+				8291621D1D4D561C006DF121 /* ios.framework */,
+				82EAABFE25EC12D1000FE2FC /* ios.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA50E3A70C875D23004DA7BD /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				AA91431A0CC99B010055B0E5 /* Perl Module */,
+				AA50E4620C876684004DA7BD /* Private-Include */,
+				AA50E45B0C87664F004DA7BD /* Include */,
+				AA50E40D0C875DD2004DA7BD /* Framework */,
+			);
+			name = ios;
+			sourceTree = "<group>";
+		};
+		AA50E40D0C875DD2004DA7BD /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				AA50E3A90C875DB7004DA7BD /* AppMain.m */,
+				AA50E3AC0C875DB7004DA7BD /* CBPerl.m */,
+				AA50E3C70C875DB7004DA7BD /* NativeMethods.m */,
+				AA50E3CC0C875DB7004DA7BD /* perlxsi.c */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		AA50E4130C875E1D004DA7BD /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				AA50E4280C875FA2004DA7BD /* Foundation.framework */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		AA50E45B0C87664F004DA7BD /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				AA50E3A80C875DB7004DA7BD /* AppMain.h */,
+				AA50E3AB0C875DB7004DA7BD /* CBPerl.h */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		AA50E4620C876684004DA7BD /* Private-Include */ = {
+			isa = PBXGroup;
+			children = (
+				AA50E3C60C875DB7004DA7BD /* NativeMethods.h */,
+				AA50E3C80C875DB7004DA7BD /* PerlImports.h */,
+				AA50E3CD0C875DB7004DA7BD /* perlxsi.h */,
+			);
+			name = "Private-Include";
+			sourceTree = "<group>";
+		};
+		AA91431A0CC99B010055B0E5 /* Perl Module */ = {
+			isa = PBXGroup;
+			children = (
+				82504F5C2763D96C003FACE3 /* cb_common.pl */,
+				82504F622763D96D003FACE3 /* ios.xs */,
+				82504F5B2763D96C003FACE3 /* Makefile.PL */,
+				82504F5F2763D96D003FACE3 /* MANIFEST */,
+				82504F602763D96D003FACE3 /* MANIFEST.SKIP */,
+				82504F5D2763D96C003FACE3 /* META.yml */,
+				82504F632763D96D003FACE3 /* ppport.h */,
+				82504F5E2763D96D003FACE3 /* README */,
+				82504F612763D96D003FACE3 /* typemap */,
+				AA9143620CC99B2A0055B0E5 /* lib */,
+				84AC1BA80D73807100C751F7 /* t */,
+				AA83FE0E0CC9E9CF00E56F20 /* typemap */,
+			);
+			name = "Perl Module";
+			path = CPAN;
+			sourceTree = SOURCE_ROOT;
+		};
+		AA9143620CC99B2A0055B0E5 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				82504F6E2763DD49003FACE3 /* ios.pm */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		82151A3C1CEFBCAC00FB511B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82151A3D1CEFBCAC00FB511B /* AppMain.h in Headers */,
+				82151A3F1CEFBCAC00FB511B /* CBPerl.h in Headers */,
+				82151A4D1CEFBCAC00FB511B /* PerlImports.h in Headers */,
+				82151A501CEFBCAC00FB511B /* perlxsi.h in Headers */,
+				82151A4B1CEFBCAC00FB511B /* NativeMethods.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829161E01D4D561C006DF121 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829161EE1D4D561C006DF121 /* NativeMethods.h in Headers */,
+				82504F642763D96D003FACE3 /* ppport.h in Headers */,
+				829161E11D4D561C006DF121 /* AppMain.h in Headers */,
+				829161E31D4D561C006DF121 /* CBPerl.h in Headers */,
+				829161F01D4D561C006DF121 /* PerlImports.h in Headers */,
+				829161F31D4D561C006DF121 /* perlxsi.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EAABC925EC12D1000FE2FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EAABCD25EC12D1000FE2FC /* NativeMethods.h in Headers */,
+				82504F652763D96D003FACE3 /* ppport.h in Headers */,
+				82EAABD025EC12D1000FE2FC /* AppMain.h in Headers */,
+				82EAABD225EC12D1000FE2FC /* CBPerl.h in Headers */,
+				82EAABDA25EC12D1000FE2FC /* PerlImports.h in Headers */,
+				82EAABDB25EC12D1000FE2FC /* perlxsi.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		82151A381CEFBCAC00FB511B /* macosx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82151A661CEFBCAC00FB511B /* Build configuration list for PBXNativeTarget "macosx" */;
+			buildPhases = (
+				82151A3C1CEFBCAC00FB511B /* Headers */,
+				82151A591CEFBCAC00FB511B /* Sources */,
+				82151A5F1CEFBCAC00FB511B /* Frameworks */,
+				82151A631CEFBCAC00FB511B /* CopyFiles */,
+				82151A651CEFBCAC00FB511B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macosx;
+			productName = ios.framework;
+			productReference = 82151A6B1CEFBCAC00FB511B /* ios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		829161DF1D4D561C006DF121 /* iphonesimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 829162181D4D561C006DF121 /* Build configuration list for PBXNativeTarget "iphonesimulator" */;
+			buildPhases = (
+				829161E01D4D561C006DF121 /* Headers */,
+				829161FC1D4D561C006DF121 /* Sources */,
+				8291620E1D4D561C006DF121 /* Frameworks */,
+				829162121D4D561C006DF121 /* CopyFiles */,
+				829162171D4D561C006DF121 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iphonesimulator;
+			productName = ios.framework;
+			productReference = 8291621D1D4D561C006DF121 /* ios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82EAABC825EC12D1000FE2FC /* iphoneos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EAABFB25EC12D1000FE2FC /* Build configuration list for PBXNativeTarget "iphoneos" */;
+			buildPhases = (
+				82EAABC925EC12D1000FE2FC /* Headers */,
+				82EAABDE25EC12D1000FE2FC /* Sources */,
+				82EAABEF25EC12D1000FE2FC /* Frameworks */,
+				82EAABF525EC12D1000FE2FC /* CopyFiles */,
+				82EAABFA25EC12D1000FE2FC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iphoneos;
+			productName = ios.framework;
+			productReference = 82EAABFE25EC12D1000FE2FC /* ios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA50E2050C87571F004DA7BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					82151A381CEFBCAC00FB511B = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AA50E2060C87571F004DA7BD /* Build configuration list for PBXProject "ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				Base,
+				fr,
+				ja,
+			);
+			mainGroup = AA50E2030C87571F004DA7BD;
+			productRefGroup = AA50E2330C87587B004DA7BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				829161DF1D4D561C006DF121 /* iphonesimulator */,
+				82EAABC825EC12D1000FE2FC /* iphoneos */,
+				82151A381CEFBCAC00FB511B /* macosx */,
+				AA7F61620DCCFBA900D20E5E /* All */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82151A651CEFBCAC00FB511B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "#!/bin/bash\n#rm -rf \"$BUILD_DIR/$CONFIGURATION/ios.framework/Versions/A/Libraries\"\n#rm -rf \"$BUILD_DIR/$CONFIGURATION/ios.framework/Libraries\"\n#if [! -e \"$BUILD_DIR/$CONFIGURATION/ios.framework/Versions/A/Libraries\"]\n#    then\n        mkdir -p \"$BUILD_DIR/$CONFIGURATION/ios.framework/Versions/A/Libraries\"\n#fi\n\n#if [-h \"$BUILD_DIR/$CONFIGURATION/ios.framework/Libraries\"]\n#then\n#nothing\n#else\ncd \"$BUILD_DIR/$CONFIGURATION/ios.framework\"\nln -fs \"Versions/A/Libraries\"\n#fi\n\n\n";
+		};
+		829162171D4D561C006DF121 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "#!/bin/bash\n#rm -rf \"$BUILD_DIR/$CONFIGURATION/ios.framework/Versions/A/Libraries\"\n#rm -rf \"$BUILD_DIR/$CONFIGURATION/ios.framework/Libraries\"\n#if [! -e \"$BUILD_DIR/$CONFIGURATION/ios.framework/Versions/A/Libraries\"]\n#    then\n        mkdir -p \"$BUILD_DIR/$CONFIGURATION/ios.framework/Versions/A/Libraries\"\n#fi\n\n#if [-h \"$BUILD_DIR/$CONFIGURATION/ios.framework/Libraries\"]\n#then\n#nothing\n#else\nln -fs \"$BUILD_DIR/$CONFIGURATION/ios.framework/Versions/A/Libraries\" \"$BUILD_DIR/$CONFIGURATION/ios.framework\"\n#fi\n\n\n";
+		};
+		82EAABFA25EC12D1000FE2FC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "#!/bin/bash\n#rm -rf \"$BUILD_DIR/$CONFIGURATION/ios.framework/Versions/A/Libraries\"\n#rm -rf \"$BUILD_DIR/$CONFIGURATION/ios.framework/Libraries\"\n#if [! -e \"$BUILD_DIR/$CONFIGURATION/ios.framework/Versions/A/Libraries\"]\n#    then\n        mkdir -p \"$BUILD_DIR/$CONFIGURATION/ios.framework/Versions/A/Libraries\"\n#fi\n\n#if [-h \"$BUILD_DIR/$CONFIGURATION/ios.framework/Libraries\"]\n#then\n#nothing\n#else\nln -fs \"$BUILD_DIR/$CONFIGURATION/ios.framework/Versions/A/Libraries\" \"$BUILD_DIR/$CONFIGURATION/ios.framework\"\n#fi\n\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82151A591CEFBCAC00FB511B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82151A6D1CEFBD1100FB511B /* CBPerl.m in Sources */,
+				82151A5B1CEFBCAC00FB511B /* AppMain.m in Sources */,
+				82151A761CEFBDEE00FB511B /* NativeMethods.m in Sources */,
+				82151A781CEFBDEE00FB511B /* perlxsi.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829161FC1D4D561C006DF121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829161FD1D4D561C006DF121 /* CBPerl.m in Sources */,
+				829162021D4D561C006DF121 /* AppMain.m in Sources */,
+				829162041D4D561C006DF121 /* NativeMethods.m in Sources */,
+				829162051D4D561C006DF121 /* perlxsi.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EAABDE25EC12D1000FE2FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EAABDF25EC12D1000FE2FC /* CBPerl.m in Sources */,
+				82EAABE425EC12D1000FE2FC /* AppMain.m in Sources */,
+				82EAABE625EC12D1000FE2FC /* NativeMethods.m in Sources */,
+				82EAABE725EC12D1000FE2FC /* perlxsi.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		82151A671CEFBCAC00FB511B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_LINK_OBJC_RUNTIME = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DEVELOPMENT_TEAM = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
+				GCC_MODEL_TUNING = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"./libffi-3.2.1/darwin_common/include",
+					"./libffi-3.2.1/darwin_osx/include",
+					"$(LIBPERL_PATH)",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(BUILD_DIR)/$(CONFIGURATION)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBPERL_PATH = "$(HOME)/perl5/perlbrew/perls/perl-blead/lib/$(PERL_VERSION)/darwin-thread-multi-2level/CORE";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/Debug",
+					"$(LIBPERL_PATH)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-L./libffi-3.2.1/Build/Products/Debug",
+					"-L$(LIBPERL_PATH)",
+					"-Wl,-no_compact_unwind",
+					"-lperl",
+					"-lffi",
+				);
+				PERL_VERSION = 5.35.4;
+				PRODUCT_BUNDLE_IDENTIFIER = net.pytm.camelbones;
+				PRODUCT_NAME = ios;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SYMROOT = Build/Products;
+				USER_HEADER_SEARCH_PATHS = NO;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		82151A681CEFBCAC00FB511B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_LINK_OBJC_RUNTIME = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
+				GCC_MODEL_TUNING = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"./libffi-3.2.1/darwin_common/include",
+					"./libffi-3.2.1/darwin_osx/include",
+					"$(LIBPERL_PATH)",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(BUILD_DIR)/$(CONFIGURATION)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBPERL_PATH = "$(HOME)/perl5/perlbrew/perls/perl-blead/lib/$(PERL_VERSION)/darwin-thread-multi-2level/CORE";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/Release",
+					"$(LIBPERL_PATH)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-L./libffi-3.2.1/Build/Products/Release",
+					"-L$(LIBPERL_PATH)",
+					"-Wl,-no_compact_unwind",
+					"-lperl",
+					"-lffi",
+				);
+				PERL_VERSION = 5.35.4;
+				PRODUCT_BUNDLE_IDENTIFIER = net.pytm.camelbones;
+				PRODUCT_NAME = ios;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SYMROOT = Build/Products;
+				USER_HEADER_SEARCH_PATHS = NO;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		829162191D4D561C006DF121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				"ARCHS[sdk=iphonesimulator*]" = x86_64;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
+				GCC_MODEL_TUNING = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "DEBUG=1";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"./libffi-3.2.1/darwin_common/include",
+					"./libffi-3.2.1/darwin_ios/include",
+					"$(LIBPERL_PATH)",
+				);
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"./libffi-3.2.1/darwin_common/include",
+					"./libffi-3.2.1/darwin_ios/include",
+					"$(LIBPERL_PATH)",
+				);
+				INFOPLIST_FILE = iosInfo.plist;
+				INSTALL_PATH = "$(BUILD_DIR)/$(CONFIGURATION)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBPERL_PATH = "";
+				"LIBPERL_PATH[sdk=iphoneos*]" = "$(PERL_DIST_PATH)/$(PERL_VERSION)/darwin-thread-multi-2level/CORE";
+				"LIBPERL_PATH[sdk=iphonesimulator*]" = "$(PERL_DIST_PATH)/$(PERL_VERSION)/darwin-thread-multi-2level/CORE";
+				LIBRARY_SEARCH_PATHS = "";
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/Debug-iphoneos",
+					"$(LIBPERL_PATH)",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/Debug-iphonesimulator",
+					"$(LIBPERL_PATH)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
+					"-L\"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/Debug-iphoneos\"",
+					"-L$(LIBPERL_PATH)",
+					"-lperl",
+					"-lffi",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = (
+					"-L\"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/Debug-iphonesimulator\"",
+					"-L$(LIBPERL_PATH)",
+					"-lperl",
+					"-lffi",
+				);
+				PERL_DIST_PATH = "";
+				"PERL_DIST_PATH[sdk=iphoneos*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5/";
+				"PERL_DIST_PATH[sdk=iphonesimulator*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5/";
+				PERL_INSTALL_PREFIX = "";
+				"PERL_INSTALL_PREFIX[sdk=iphoneos*]" = "$(PROJECT_DIR)/../local";
+				"PERL_INSTALL_PREFIX[sdk=iphonesimulator*]" = "$(PROJECT_DIR)/../local";
+				PERL_VERSION = 5.35.4;
+				PRODUCT_BUNDLE_IDENTIFIER = net.pytm.camelbones;
+				PRODUCT_NAME = ios;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SYMROOT = Build/Products;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64 armv7";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				WARNING_CFLAGS = (
+					"-Wno-shorten-64-to-32",
+					"-Wall",
+					"-Wno-shift-count-overflow",
+				);
+			};
+			name = Debug;
+		};
+		8291621A1D4D561C006DF121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				"ARCHS[sdk=iphonesimulator*]" = x86_64;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
+				GCC_MODEL_TUNING = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"./libffi-3.2.1/darwin_common/include",
+					"./libffi-3.2.1/darwin_ios/include",
+					"$(LIBPERL_PATH)",
+				);
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"./libffi-3.2.1/darwin_common/include",
+					"./libffi-3.2.1/darwin_ios/include",
+					"$(LIBPERL_PATH)",
+				);
+				INFOPLIST_FILE = iosInfo.plist;
+				INSTALL_PATH = "$(BUILD_DIR)/$(CONFIGURATION)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBPERL_PATH = "";
+				"LIBPERL_PATH[sdk=iphoneos*]" = "$(PERL_DIST_PATH)/$(PERL_VERSION)/darwin-thread-multi-2level/CORE";
+				"LIBPERL_PATH[sdk=iphonesimulator*]" = "$(PERL_DIST_PATH)/$(PERL_VERSION)/darwin-thread-multi-2level/CORE";
+				LIBRARY_SEARCH_PATHS = "";
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/Release-iphoneos",
+					"$(LIBPERL_PATH)",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/Release-iphonesimulator",
+					"$(LIBPERL_PATH)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
+					"-L\"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/Release-iphoneos\"",
+					"-L$(LIBPERL_PATH)",
+					"-lperl",
+					"-lffi",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = (
+					"-L\"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/Release-iphonesimulator\"",
+					"-L$(LIBPERL_PATH)",
+					"-lperl",
+					"-lffi",
+				);
+				PERL_DIST_PATH = "";
+				"PERL_DIST_PATH[sdk=iphoneos*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5/";
+				"PERL_DIST_PATH[sdk=iphonesimulator*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5/";
+				PERL_INSTALL_PREFIX = "";
+				"PERL_INSTALL_PREFIX[sdk=iphoneos*]" = "$(PROJECT_DIR)/../local";
+				"PERL_INSTALL_PREFIX[sdk=iphonesimulator*]" = "$(PROJECT_DIR)/../local";
+				PERL_VERSION = 5.35.4;
+				PRODUCT_BUNDLE_IDENTIFIER = net.pytm.camelbones;
+				PRODUCT_NAME = ios;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SYMROOT = Build/Products;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64 armv7";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				WARNING_CFLAGS = (
+					"-Wno-shorten-64-to-32",
+					"-Wall",
+					"-Wno-shift-count-overflow",
+				);
+			};
+			name = Release;
+		};
+		82EAABFC25EC12D1000FE2FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				"ARCHS[sdk=iphonesimulator*]" = x86_64;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
+				GCC_MODEL_TUNING = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "DEBUG=1";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*]" = "$(LIBPERL_PATH)";
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*]" = "$(LIBPERL_PATH)";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(BUILD_DIR)/$(CONFIGURATION)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBPERL_PATH = "";
+				"LIBPERL_PATH[sdk=iphoneos*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5//$(PERL_VERSION)//darwin-thread-multi-2level/CORE/";
+				"LIBPERL_PATH[sdk=iphonesimulator*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5//$(PERL_VERSION)//darwin-thread-multi-2level/CORE/";
+				LIBRARY_SEARCH_PATHS = "";
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = "$(LIBPERL_PATH)";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = "$(LIBPERL_PATH)";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
+					"-L$(LIBPERL_PATH)",
+					"-lperl",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = (
+					"-L$(LIBPERL_PATH)",
+					"-lperl",
+				);
+				PERL_DIST_PATH = "";
+				"PERL_DIST_PATH[sdk=iphoneos*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5/";
+				"PERL_DIST_PATH[sdk=iphonesimulator*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5/";
+				PERL_INSTALL_PREFIX = "";
+				"PERL_INSTALL_PREFIX[sdk=iphoneos*]" = "$(PROJECT_DIR)/../local";
+				"PERL_INSTALL_PREFIX[sdk=iphonesimulator*]" = "$(PROJECT_DIR)/../local";
+				PERL_VERSION = 5.35.4;
+				PRODUCT_BUNDLE_IDENTIFIER = net.pytm.camelbones;
+				PRODUCT_NAME = ios;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SYMROOT = Build/Products;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64 armv7";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				WARNING_CFLAGS = (
+					"-Wno-shorten-64-to-32",
+					"-Wall",
+					"-Wno-shift-count-overflow",
+				);
+			};
+			name = Debug;
+		};
+		82EAABFD25EC12D1000FE2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=iphonesimulator*]" = x86_64;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
+				GCC_MODEL_TUNING = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*]" = "$(LIBPERL_PATH)";
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*]" = "$(LIBPERL_PATH)";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(BUILD_DIR)/$(CONFIGURATION)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBPERL_PATH = "";
+				"LIBPERL_PATH[sdk=iphoneos*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5//$(PERL_VERSION)//darwin-thread-multi-2level/CORE/";
+				"LIBPERL_PATH[sdk=iphonesimulator*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5//$(PERL_VERSION)//darwin-thread-multi-2level/CORE/";
+				LIBRARY_SEARCH_PATHS = "";
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = "$(LIBPERL_PATH)";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = "$(LIBPERL_PATH)";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
+					"-L$(LIBPERL_PATH)",
+					"-lperl",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = (
+					"-L$(LIBPERL_PATH)",
+					"-lperl",
+				);
+				PERL_DIST_PATH = "";
+				"PERL_DIST_PATH[sdk=iphoneos*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5/";
+				"PERL_DIST_PATH[sdk=iphonesimulator*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5/";
+				PERL_INSTALL_PREFIX = "";
+				"PERL_INSTALL_PREFIX[sdk=iphoneos*]" = "$(PROJECT_DIR)/../local";
+				"PERL_INSTALL_PREFIX[sdk=iphonesimulator*]" = "$(PROJECT_DIR)/../local";
+				PERL_VERSION = 5.35.4;
+				PRODUCT_BUNDLE_IDENTIFIER = net.pytm.camelbones;
+				PRODUCT_NAME = ios;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SYMROOT = Build/Products;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64 armv7";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				WARNING_CFLAGS = (
+					"-Wno-shorten-64-to-32",
+					"-Wall",
+					"-Wno-shift-count-overflow",
+				);
+			};
+			name = Release;
+		};
+		AA50E2070C87571F004DA7BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Library/Frameworks,
+				);
+				GCC_MODEL_TUNING = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Debug;
+		};
+		AA50E2080C87571F004DA7BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Library/Frameworks,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Release;
+		};
+		AA7F61720DCCFBA900D20E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = All;
+			};
+			name = Debug;
+		};
+		AA7F61730DCCFBA900D20E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = All;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82151A661CEFBCAC00FB511B /* Build configuration list for PBXNativeTarget "macosx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82151A671CEFBCAC00FB511B /* Debug */,
+				82151A681CEFBCAC00FB511B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		829162181D4D561C006DF121 /* Build configuration list for PBXNativeTarget "iphonesimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829162191D4D561C006DF121 /* Debug */,
+				8291621A1D4D561C006DF121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82EAABFB25EC12D1000FE2FC /* Build configuration list for PBXNativeTarget "iphoneos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EAABFC25EC12D1000FE2FC /* Debug */,
+				82EAABFD25EC12D1000FE2FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA50E2060C87571F004DA7BD /* Build configuration list for PBXProject "ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA50E2070C87571F004DA7BD /* Debug */,
+				AA50E2080C87571F004DA7BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7F61710DCCFBA900D20E5E /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7F61720DCCFBA900D20E5E /* Debug */,
+				AA7F61730DCCFBA900D20E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA50E2050C87571F004DA7BD /* Project object */;
+}
