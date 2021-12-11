@@ -1,16 +1,4 @@
-use strict;
-use warnings;
-
 package ios;
-require Exporter;
-
-use Config;
-
-our @ISA = qw(Exporter);
-our $VERSION = '1.3.0';
-
-require XSLoader;
-XSLoader::load('ios', $VERSION);
 
 =head1 NAME
 ios.pm
@@ -30,17 +18,13 @@ BEGIN {
     }
 }
 
-# auto-flush on socket
-$| = 1;
 use strict;
-use open ":std", ":encoding(UTF-8)";
-use JSON::PP;
-use Data::Dumper;
-use Cwd qw(abs_path chdir getcwd);
-use Text::ParseWords;
+use warnings;
+use Config;
 
+require Exporter;
 our @ISA = qw(Exporter);
-our $VERSION = '0.0.1';
+our $VERSION = '1.3.0';
 
 our @methods = (
     'capture_test',
@@ -53,6 +37,18 @@ our @methods = (
 
 our @EXPORT = @methods;
 our @EXPORT_OK = @methods;
+
+require XSLoader;
+XSLoader::load('ios', $VERSION);
+
+# auto-flush on socket
+$| = 1;
+
+use open ":std", ":encoding(UTF-8)";
+use JSON::PP;
+use Data::Dumper;
+use Cwd qw(abs_path chdir getcwd);
+use Text::ParseWords;
 
 our $DEBUG = 0;
 
