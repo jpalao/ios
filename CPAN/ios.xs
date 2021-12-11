@@ -1,8 +1,6 @@
 #import <ios/AppMain.h>
 #import <ios/CBPerl.h>
 #import <ios/NativeMethods.h>
-#import <ios/Conversions.h>
-#import <ios/Runtime.h>
 #import <ios/PerlImports.h>
 
 #ifdef GNUSTEP
