@@ -24,7 +24,7 @@ use Config;
 
 require Exporter;
 our @ISA = qw(Exporter);
-our $VERSION = '1.3.0';
+our $VERSION = '0.0.1';
 
 our @methods = (
     'capture_test',
