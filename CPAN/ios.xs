@@ -1,7 +1,6 @@
-#import <ios/AppMain.h>
+#import <ios/PerlImports.h>
 #import <ios/CBPerl.h>
 #import <ios/NativeMethods.h>
-#import <ios/PerlImports.h>
 
 #ifdef GNUSTEP
 #include <objc/objc.h>
@@ -20,17 +19,10 @@ MODULE = ios	PACKAGE = ios
 PROTOTYPES: ENABLE
 
 void
-CBPoke(address, object, size=0)
-	void *address;
-	SV *object;
-	unsigned size;
-
-void
-CBInit(importCocoa)
-    BOOL importCocoa;
+CBInit()
     CODE:
     NSAutoreleasePool *p = [[NSAutoreleasePool alloc] init];
-    [[CBPerl alloc] initXS: importCocoa];
+    [[CBPerl alloc] initXS];
 
 AV*
 CBRunPerlCaptureStdout(json)
