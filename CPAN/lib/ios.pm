@@ -1,7 +1,9 @@
 package ios;
 
 =head1 NAME
-ios.pm
+
+ios - supporting XS code for iOS and derivatives
+
 =cut
 
 BEGIN {
