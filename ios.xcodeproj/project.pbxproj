@@ -629,7 +629,7 @@
 					"./libffi-3.2.1/darwin_ios/include",
 					"$(LIBPERL_PATH)",
 				);
-				INFOPLIST_FILE = iosInfo.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(BUILD_DIR)/$(CONFIGURATION)";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
@@ -718,7 +718,7 @@
 					"./libffi-3.2.1/darwin_ios/include",
 					"$(LIBPERL_PATH)",
 				);
-				INFOPLIST_FILE = iosInfo.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(BUILD_DIR)/$(CONFIGURATION)";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
