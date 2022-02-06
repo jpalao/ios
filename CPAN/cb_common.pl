@@ -104,13 +104,13 @@ our $IOS_TARGET = $ENV{'IOS_TARGET'};
 
 =pod
  
-=head2 IOS_PREFIX
+=head2 PERL_IOS_PREFIX
  
 TODO
  
 =cut
 
-our $IOS_PREFIX = $ENV{'IOS_PREFIX'};
+our $PERL_IOS_PREFIX = $ENV{'PERL_IOS_PREFIX'};
 
 =pod
  
@@ -169,7 +169,7 @@ my $abs_path_to_cpan_dir = $IOS_CPAN_DIR;
 if (! defined $abs_path_to_cpan_dir) {
     if ($ENV{'IOS_CI'}) {
        $abs_path_to_cpan_dir = 
-         "$IOS_PREFIX/perl-$PERL_VERSION/ext/ios-$IOS_VERSION/";
+         "$PERL_IOS_PREFIX/perl-$PERL_VERSION/ext/ios-$IOS_VERSION/";
     } else {
         $abs_path_to_cpan_dir = `pwd`;
         chomp $abs_path_to_cpan_dir;
@@ -212,7 +212,7 @@ $XCODE_BUILD_CONFIG = "Release"
 my $iosPath;
 
 if ($ENV{IOS_CI}) {
-    $iosPath = "$IOS_PREFIX/ios";
+    $iosPath = "$PERL_IOS_PREFIX/ios";
 } else {
     $iosPath = "$abs_path_to_cpan_dir/..";
 }
@@ -227,7 +227,7 @@ our %opts = (
     AUTHOR            => 'Sherm Pendley <sherm.pendley@gmail.com>',
 
     #XSOPT             => "-typemap $IOS_CPAN_DIR/typemap",
-    XSOPT             => "-typemap $IOS_PREFIX/perl-$PERL_VERSION/ext/ios-$IOS_VERSION/typemap",
+    XSOPT             => "-typemap $PERL_IOS_PREFIX/perl-$PERL_VERSION/ext/ios-$IOS_VERSION/typemap",
 
     LIBS              => [ '-lobjc'],
     INC               => "-F$iosPath ",
