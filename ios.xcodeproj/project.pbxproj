@@ -423,7 +423,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "#!/bin/bash\n#rm -rf \"$BUILD_DIR/$CONFIGURATION/ios.framework/Versions/A/Libraries\"\n#rm -rf \"$BUILD_DIR/$CONFIGURATION/ios.framework/Libraries\"\n#if [! -e \"$BUILD_DIR/$CONFIGURATION/ios.framework/Versions/A/Libraries\"]\n#    then\n        mkdir -p \"$BUILD_DIR/$CONFIGURATION/ios.framework/Versions/A/Libraries\"\n#fi\n\n#if [-h \"$BUILD_DIR/$CONFIGURATION/ios.framework/Libraries\"]\n#then\n#nothing\n#else\nln -fs \"$BUILD_DIR/$CONFIGURATION/ios.framework/Versions/A/Libraries\" \"$BUILD_DIR/$CONFIGURATION/ios.framework\"\n#fi\n\n\n";
+			shellScript = "#!/bin/bash\nmkdir -p \"$BUILD_DIR/$CONFIGURATION-iphonesimulator/ios.framework/Versions/A/Libraries\"\n\nln -fs \"$BUILD_DIR/$CONFIGURATION-iphonesimulator/ios.framework/Versions/A/Libraries\" \"$BUILD_DIR/$CONFIGURATION-iphoneos/ios.framework\"\n\n\n\n";
 		};
 		82EAABFA25EC12D1000FE2FC /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -436,7 +436,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "#!/bin/bash\n#rm -rf \"$BUILD_DIR/$CONFIGURATION/ios.framework/Versions/A/Libraries\"\n#rm -rf \"$BUILD_DIR/$CONFIGURATION/ios.framework/Libraries\"\n#if [! -e \"$BUILD_DIR/$CONFIGURATION/ios.framework/Versions/A/Libraries\"]\n#    then\n        mkdir -p \"$BUILD_DIR/$CONFIGURATION/ios.framework/Versions/A/Libraries\"\n#fi\n\n#if [-h \"$BUILD_DIR/$CONFIGURATION/ios.framework/Libraries\"]\n#then\n#nothing\n#else\nln -fs \"$BUILD_DIR/$CONFIGURATION/ios.framework/Versions/A/Libraries\" \"$BUILD_DIR/$CONFIGURATION/ios.framework\"\n#fi\n\n\n";
+			shellScript = "#!/bin/bash\n\nmkdir -p \"$BUILD_DIR/$CONFIGURATION-iphoneos/ios.framework/Versions/A/Libraries\"\nln -fs \"$BUILD_DIR/$CONFIGURATION-iphoneos/ios.framework/Versions/A/Libraries\" \"$BUILD_DIR/$CONFIGURATION-iphoneos/ios.framework\"\n\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
