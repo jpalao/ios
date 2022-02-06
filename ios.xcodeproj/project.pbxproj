@@ -31,7 +31,7 @@
 		82151A6D1CEFBD1100FB511B /* CBPerl.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50E3AC0C875DB7004DA7BD /* CBPerl.m */; settings = {COMPILER_FLAGS = "-Wno-objc-protocol-method-implementation"; }; };
 		82151A761CEFBDEE00FB511B /* NativeMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50E3C70C875DB7004DA7BD /* NativeMethods.m */; };
 		82151A781CEFBDEE00FB511B /* perlxsi.c in Sources */ = {isa = PBXBuildFile; fileRef = AA50E3CC0C875DB7004DA7BD /* perlxsi.c */; };
-		82504F642763D96D003FACE3 /* ppport.h in Headers */ = {isa = PBXBuildFile; fileRef = 82504F632763D96D003FACE3 /* ppport.h */; };
+		82504F642763D96D003FACE3 /* ppport.h in Headers */ = {isa = PBXBuildFile; fileRef = 82504F632763D96D003FACE3 /* ppport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82504F652763D96D003FACE3 /* ppport.h in Headers */ = {isa = PBXBuildFile; fileRef = 82504F632763D96D003FACE3 /* ppport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		826E03DD27616DB200BECAE0 /* typemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 826E03DC27616DB200BECAE0 /* typemap */; };
 		829161E11D4D561C006DF121 /* AppMain.h in Headers */ = {isa = PBXBuildFile; fileRef = AA50E3A80C875DB7004DA7BD /* AppMain.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,7 +45,7 @@
 		829162051D4D561C006DF121 /* perlxsi.c in Sources */ = {isa = PBXBuildFile; fileRef = AA50E3CC0C875DB7004DA7BD /* perlxsi.c */; };
 		829162111D4D561C006DF121 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA50E4280C875FA2004DA7BD /* Foundation.framework */; };
 		829162161D4D561C006DF121 /* typemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA83FE0E0CC9E9CF00E56F20 /* typemap */; };
-		82C7A4E52765392100E523CA /* ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C7A4E42765392100E523CA /* ios.h */; };
+		82C7A4E52765392100E523CA /* ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C7A4E42765392100E523CA /* ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82C7A4E62765392100E523CA /* ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C7A4E42765392100E523CA /* ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82C7A4E72765392100E523CA /* ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C7A4E42765392100E523CA /* ios.h */; };
 		82EAABCD25EC12D1000FE2FC /* NativeMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = AA50E3C60C875DB7004DA7BD /* NativeMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -109,6 +109,8 @@
 		8291621D1D4D561C006DF121 /* ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C7A4E42765392100E523CA /* ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ios.h; sourceTree = "<group>"; };
 		82C7A4EC2765393700E523CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E4EC5F27B089C6000BB5A5 /* ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios.h; sourceTree = "<group>"; };
+		82E4EC6027B08A28000BB5A5 /* ppport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ppport.h; path = CPAN/ppport.h; sourceTree = "<group>"; };
 		82EAABFE25EC12D1000FE2FC /* ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA50E3A80C875DB7004DA7BD /* AppMain.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppMain.h; sourceTree = "<group>"; };
 		AA50E3A90C875DB7004DA7BD /* AppMain.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AppMain.m; sourceTree = "<group>"; };
@@ -161,6 +163,8 @@
 		AA50E2030C87571F004DA7BD = {
 			isa = PBXGroup;
 			children = (
+				82E4EC6027B08A28000BB5A5 /* ppport.h */,
+				82E4EC5F27B089C6000BB5A5 /* ios.h */,
 				82C7A4EC2765393700E523CA /* Info.plist */,
 				826E03DC27616DB200BECAE0 /* typemap */,
 				AA50E3A70C875D23004DA7BD /* ios */,
@@ -278,11 +282,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				829161EE1D4D561C006DF121 /* NativeMethods.h in Headers */,
-				82C7A4E52765392100E523CA /* ios.h in Headers */,
-				82504F642763D96D003FACE3 /* ppport.h in Headers */,
 				829161E11D4D561C006DF121 /* AppMain.h in Headers */,
 				829161E31D4D561C006DF121 /* CBPerl.h in Headers */,
+				82C7A4E52765392100E523CA /* ios.h in Headers */,
 				829161F01D4D561C006DF121 /* PerlImports.h in Headers */,
+				82504F642763D96D003FACE3 /* ppport.h in Headers */,
 				829161F31D4D561C006DF121 /* perlxsi.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
