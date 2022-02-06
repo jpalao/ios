@@ -190,9 +190,9 @@ if (!defined $ARCHFLAGS || !length $ARCHFLAGS) {
 }
 
 if ($ENV{'IOS_CI'}) {
-    $ARCHFLAGS .= "$perl_link_flags -ObjC -lobjc "
+    $ARCHFLAGS .= "$perl_link_flags -ObjC -lobjc -framework ios"
 } else {
-    $ARCHFLAGS .= " -L$PERL_INCLUDE_DIR -I$PERL_INCLUDE_DIR -ObjC -lobjc " 
+    $ARCHFLAGS .= " -L$PERL_INCLUDE_DIR -I$PERL_INCLUDE_DIR -ObjC -lobjc -framework ios"
 }
 
 # remove the arch switches to be passed to the linker
