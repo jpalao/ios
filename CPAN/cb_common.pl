@@ -9,55 +9,55 @@ die "This code only works on macOS, iOS, apple tv and apple watch systems"
     if ( $^O !~ m/darwin/ );
 
 =pod
- 
+
 =head1 cb_common.pl
- 
+
 This script builds the ios Framework and associated perl XS extension.
 
 The following ENV variables can be set to control its behavior.
- 
+
 =cut
- 
+
 =pod
- 
+
 =head2 PERL_INCLUDE_DIR
- 
+
 Absolute path to the directory containing the installed libperl.dylib
- 
+
 =cut
 
 our $PERL_INCLUDE_DIR = $ENV{'LIBPERL_PATH'};
 
 =pod
- 
+
 =head2 PERL_LINK_FLAGS
- 
+
 The linker flags to be used in the build. Defaults to:
 
 perl -MExtUtils::Embed -e'print ldopts()'
- 
+
 =cut
 
-our $PERL_LINK_FLAGS = $ENV{'PERL_LINK_FLAGS'};  
+our $PERL_LINK_FLAGS = $ENV{'PERL_LINK_FLAGS'};
 
 =pod
- 
+
 =head2 ARCHFLAGS
- 
+
 The compiler flags to be used in the build. Defaults to:
 
 perl -MConfig -e'print $Config{'ccflags'}'
- 
+
 =cut
 
 our $ARCHFLAGS = $ENV{'ARCHFLAGS'};
 
 =pod
- 
+
 =head2 PERL_VERSION
- 
+
 The perl version that ios should link to
- 
+
 =cut
 
 our $PERL_VERSION = $ENV{'PERL_VERSION'};
@@ -65,10 +65,10 @@ our $PERL_VERSION = $ENV{'PERL_VERSION'};
 =pod
 
 =head2 IOS_TARGET
- 
+
 The target of this build. One of:
 
-=item 
+=item
 
 macosx
 
@@ -103,41 +103,51 @@ Default is macosx
 our $IOS_TARGET = $ENV{'IOS_TARGET'};
 
 =pod
- 
+
 =head2 PERL_IOS_PREFIX
- 
+
 TODO
- 
+
 =cut
 
 our $PERL_IOS_PREFIX = $ENV{'PERL_IOS_PREFIX'};
 
 =pod
- 
+
+=head2 IOS_MODULE_PATH
+
+TODO
+
+=cut
+
+our $IOS_MODULE_PATH = $ENV{'IOS_MODULE_PATH'};
+
+=pod
+
 =head2 IOS_VERSION
- 
+
 The verion of ios module to build
- 
+
 =cut
 
 our $IOS_VERSION = $ENV{'IOS_VERSION'};
 
 =pod
- 
+
 =head2 IOS_CPAN_DIR
- 
+
 Absolute path to ios/CPAN
- 
+
 =cut
 
 our $IOS_CPAN_DIR = $ENV{'IOS_CPAN_DIR'};
 
 =pod
- 
+
 =head2 ARCHS
- 
+
 Architectures for this build, defaults to x86_64
- 
+
 =cut
 
 our $ARCHS = $ENV{'ARCHS'};
@@ -146,11 +156,11 @@ if (!length $ARCHS) {
 }
 
 =pod
- 
+
 =head2 IOS_BUILD_CONFIGURATION
- 
+
 Either 'Debug' or 'Release'
- 
+
 =cut
 
 our $XCODE_BUILD_CONFIG = $ENV{'IOS_BUILD_CONFIGURATION'};
@@ -168,7 +178,7 @@ my $abs_path_to_cpan_dir = $IOS_CPAN_DIR;
 
 if (! defined $abs_path_to_cpan_dir) {
     if ($ENV{'IOS_CI'}) {
-       $abs_path_to_cpan_dir = 
+       $abs_path_to_cpan_dir =
          "$PERL_IOS_PREFIX/perl-$PERL_VERSION/ext/ios-$IOS_VERSION/";
     } else {
         $abs_path_to_cpan_dir = `pwd`;
@@ -197,10 +207,10 @@ if ($ENV{'IOS_CI'}) {
 
 # remove the arch switches to be passed to the linker
 # $perl_link_flags =~ s/\-arch[ ]*\w*//g;
-# 
+#
 # $PERL_LINK_FLAGS = $perl_link_flags
 #     if (!defined $PERL_LINK_FLAGS || !length $PERL_LINK_FLAGS);
-    
+
 #$ARCHFLAGS .= " " . $PERL_LINK_FLAGS;
 
 $PERL_INCLUDE_DIR = $Config{archlib}. "/CORE"
@@ -218,7 +228,7 @@ if ($ENV{IOS_CI}) {
 }
 
 $iosPath .= "/Build/Products/$XCODE_BUILD_CONFIG";
-    
+
 our %opts = (
     VERSION           => $IOS_VERSION,
     CCFLAGS           => "$ARCHFLAGS -Wall",
@@ -230,7 +240,7 @@ our %opts = (
     XSOPT             => "-typemap $PERL_IOS_PREFIX/perl-$PERL_VERSION/ext/ios-$IOS_VERSION/typemap",
 
     LIBS              => [ '-lobjc'],
-    INC               => "-F$iosPath ",
+    INC               => "-F$IOS_MODULE_PATH ",
     dynamic_lib       => {
                         'OTHERLDFLAGS' =>
                             "$ARCHFLAGS -framework Foundation " .
