@@ -427,7 +427,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "#!/bin/bash\nmkdir -p \"$BUILD_DIR/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/ios.framework/Versions/A/Libraries\"\n\nln -fs \"$BUILD_DIR/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/ios.framework/Versions/A/Libraries\" \"$BUILD_DIR/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/ios.framework\"\n\n\n\n";
+			shellScript = "#!/bin/bash\n#mkdir -p \"$BUILD_DIR/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/ios.framework/Versions/A/Libraries\"\n\n#ln -fs \"$BUILD_DIR/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/ios.framework/Versions/A/Libraries\" \"$BUILD_DIR/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/ios.framework\"\n\n\n\n";
 		};
 		82EAABFA25EC12D1000FE2FC /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
