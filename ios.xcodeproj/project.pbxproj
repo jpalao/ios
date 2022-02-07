@@ -427,7 +427,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "#!/bin/bash\nmkdir -p \"$BUILD_DIR/$CONFIGURATION-iphonesimulator/ios.framework/Versions/A/Libraries\"\n\nln -fs \"$BUILD_DIR/$CONFIGURATION-iphonesimulator/ios.framework/Versions/A/Libraries\" \"$BUILD_DIR/$CONFIGURATION-iphoneos/ios.framework\"\n\n\n\n";
+			shellScript = "#!/bin/bash\nmkdir -p \"$BUILD_DIR/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/ios.framework/Versions/A/Libraries\"\n\nln -fs \"$BUILD_DIR/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/ios.framework/Versions/A/Libraries\" \"$BUILD_DIR/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/ios.framework\"\n\n\n\n";
 		};
 		82EAABFA25EC12D1000FE2FC /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -440,7 +440,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "#!/bin/bash\n\nmkdir -p \"$BUILD_DIR/$CONFIGURATION-iphoneos/ios.framework/Versions/A/Libraries\"\nln -fs \"$BUILD_DIR/$CONFIGURATION-iphoneos/ios.framework/Versions/A/Libraries\" \"$BUILD_DIR/$CONFIGURATION-iphoneos/ios.framework\"\n\n\n";
+			shellScript = "#!/bin/bash\n\nmkdir -p \"$BUILD_DIR/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/ios.framework/Versions/A/Libraries\"\nln -fs \"$BUILD_DIR/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/ios.framework/Versions/A/Libraries\" \"$BUILD_DIR/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/ios.framework\"\n\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -643,24 +643,24 @@
 				"LIBPERL_PATH[sdk=iphonesimulator*]" = "$(PERL_DIST_PATH)/$(PERL_VERSION)/darwin-thread-multi-2level/CORE";
 				LIBRARY_SEARCH_PATHS = "";
 				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = (
-					"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
 					"$(LIBPERL_PATH)",
 				);
 				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = (
-					"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/Debug-iphonesimulator",
+					"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
 					"$(LIBPERL_PATH)",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
-					"-L\"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/Debug-iphoneos\"",
+					"-L\"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"",
 					"-L$(LIBPERL_PATH)",
 					"-lperl",
 					"-lffi",
 				);
 				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = (
-					"-L\"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/Debug-iphonesimulator\"",
+					"-L\"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"",
 					"-L$(LIBPERL_PATH)",
 					"-lperl",
 					"-lffi",
@@ -732,24 +732,24 @@
 				"LIBPERL_PATH[sdk=iphonesimulator*]" = "$(PERL_DIST_PATH)/$(PERL_VERSION)/darwin-thread-multi-2level/CORE";
 				LIBRARY_SEARCH_PATHS = "";
 				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = (
-					"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/Release-iphoneos",
+					"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
 					"$(LIBPERL_PATH)",
 				);
 				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = (
-					"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/Release-iphonesimulator",
+					"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
 					"$(LIBPERL_PATH)",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
-					"-L\"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/Release-iphoneos\"",
+					"-L\"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"",
 					"-L$(LIBPERL_PATH)",
 					"-lperl",
 					"-lffi",
 				);
 				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = (
-					"-L\"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/Release-iphonesimulator\"",
+					"-L\"$(PROJECT_DIR)/libffi-3.2.1/Build/Products/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"",
 					"-L$(LIBPERL_PATH)",
 					"-lperl",
 					"-lffi",
