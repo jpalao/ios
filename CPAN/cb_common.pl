@@ -240,11 +240,11 @@ our %opts = (
     XSOPT             => "-typemap $PERL_IOS_PREFIX/perl-$PERL_VERSION/ext/ios-$IOS_VERSION/typemap",
 
     LIBS              => [ '-lobjc'],
-    INC               => "-F$IOS_MODULE_PATH ",
+    INC               => "-F$IOS_MODULE_PATH/Build/Products/$XCODE_BUILD_CONFIG",
     dynamic_lib       => {
                         'OTHERLDFLAGS' =>
                             "$ARCHFLAGS -framework Foundation " .
-                            "-framework ios -F$iosPath " .
+                            "-framework ios -F$IOS_MODULE_PATH/Build/Products/$XCODE_BUILD_CONFIG " .
                             "-Wl,-rpath,$iosPath"
                         },
 );
