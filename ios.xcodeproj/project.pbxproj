@@ -813,13 +813,13 @@
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "";
 				LIBPERL_PATH = "";
-				"LIBPERL_PATH[sdk=iphoneos*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5//$(PERL_VERSION)//darwin-thread-multi-2level/CORE/";
-				"LIBPERL_PATH[sdk=iphonesimulator*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5//$(PERL_VERSION)//darwin-thread-multi-2level/CORE/";
+				"LIBPERL_PATH[sdk=iphoneos*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5/$(PERL_VERSION)/darwin-thread-multi-2level/CORE/";
+				"LIBPERL_PATH[sdk=iphonesimulator*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5/$(PERL_VERSION)/darwin-thread-multi-2level/CORE/";
 				LIBRARY_SEARCH_PATHS = "";
 				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = "$(LIBPERL_PATH)";
 				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = "$(LIBPERL_PATH)";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
 					"-L$(LIBPERL_PATH)",
@@ -833,11 +833,12 @@
 				"PERL_DIST_PATH[sdk=iphoneos*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5/";
 				"PERL_DIST_PATH[sdk=iphonesimulator*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5/";
 				PERL_INSTALL_PREFIX = "";
-				"PERL_INSTALL_PREFIX[sdk=iphoneos*]" = "$(PROJECT_DIR)/../local";
-				"PERL_INSTALL_PREFIX[sdk=iphonesimulator*]" = "$(PROJECT_DIR)/../local";
+				"PERL_INSTALL_PREFIX[sdk=iphoneos*]" = "$(PROJECT_DIR)/../../../local";
+				"PERL_INSTALL_PREFIX[sdk=iphonesimulator*]" = "$(PROJECT_DIR)/../../../local";
 				PERL_VERSION = 5.35.4;
 				PRODUCT_BUNDLE_IDENTIFIER = net.pytm.camelbones;
 				PRODUCT_NAME = ios;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
 				SYMROOT = Build/Products;
@@ -890,7 +891,7 @@
 				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = "$(LIBPERL_PATH)";
 				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = "$(LIBPERL_PATH)";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
 					"-L$(LIBPERL_PATH)",
@@ -904,11 +905,12 @@
 				"PERL_DIST_PATH[sdk=iphoneos*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5/";
 				"PERL_DIST_PATH[sdk=iphonesimulator*]" = "$(PERL_INSTALL_PREFIX)/lib/perl5/";
 				PERL_INSTALL_PREFIX = "";
-				"PERL_INSTALL_PREFIX[sdk=iphoneos*]" = "$(PROJECT_DIR)/../local";
-				"PERL_INSTALL_PREFIX[sdk=iphonesimulator*]" = "$(PROJECT_DIR)/../local";
+				"PERL_INSTALL_PREFIX[sdk=iphoneos*]" = "$(PROJECT_DIR)/../../../local";
+				"PERL_INSTALL_PREFIX[sdk=iphonesimulator*]" = "$(PROJECT_DIR)/../../../local";
 				PERL_VERSION = 5.35.4;
 				PRODUCT_BUNDLE_IDENTIFIER = net.pytm.camelbones;
 				PRODUCT_NAME = ios;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
 				SYMROOT = Build/Products;
