@@ -167,25 +167,9 @@ our $XCODE_BUILD_CONFIG = $ENV{'IOS_BUILD_CONFIGURATION'};
 
 $XCODE_BUILD_CONFIG .= "-$IOS_TARGET" if $IOS_TARGET !~ /macosx/;
 
-###################################################################################
-
-# TODO detach embedded libffi?
-our $LIBFFIDIR = '../libffi-3.2.1';
-
 print "\$IOS_CPAN_DIR: $IOS_CPAN_DIR\n";
 
-my $abs_path_to_cpan_dir = $IOS_CPAN_DIR;
-
-if (! defined $abs_path_to_cpan_dir) {
-    if ($ENV{'IOS_CI'}) {
-       $abs_path_to_cpan_dir =
-         "$PERL_IOS_PREFIX/perl-$PERL_VERSION/ext/ios-$IOS_VERSION/";
-    } else {
-        $abs_path_to_cpan_dir = `pwd`;
-        chomp $abs_path_to_cpan_dir;
-    }
-}
-
+my $abs_path_to_cpan_dir = "$PERL_IOS_PREFIX/perl-$PERL_VERSION/ext/ios-$IOS_VERSION/";
 print "\$abs_path_to_cpan_dir: $abs_path_to_cpan_dir\n";
 
 our $IOS_FRAMEWORK = 'ios.framework';
@@ -199,19 +183,7 @@ if (!defined $ARCHFLAGS || !length $ARCHFLAGS) {
     chomp $ARCHFLAGS;
 }
 
-if ($ENV{'IOS_CI'}) {
-    $ARCHFLAGS .= "$perl_link_flags -ObjC -lobjc -framework ios"
-} else {
-    $ARCHFLAGS .= " -L$PERL_INCLUDE_DIR -I$PERL_INCLUDE_DIR -ObjC -lobjc -framework ios"
-}
-
-# remove the arch switches to be passed to the linker
-# $perl_link_flags =~ s/\-arch[ ]*\w*//g;
-#
-# $PERL_LINK_FLAGS = $perl_link_flags
-#     if (!defined $PERL_LINK_FLAGS || !length $PERL_LINK_FLAGS);
-
-#$ARCHFLAGS .= " " . $PERL_LINK_FLAGS;
+$ARCHFLAGS .= "$perl_link_flags -ObjC -lobjc -framework ios"
 
 $PERL_INCLUDE_DIR = $Config{archlib}. "/CORE"
     if (!defined $PERL_INCLUDE_DIR || !length $PERL_INCLUDE_DIR);
@@ -219,15 +191,7 @@ $PERL_INCLUDE_DIR = $Config{archlib}. "/CORE"
 $XCODE_BUILD_CONFIG = "Release"
     if (!defined $XCODE_BUILD_CONFIG || !length $XCODE_BUILD_CONFIG);
 
-my $iosPath;
-
-if ($ENV{IOS_CI}) {
-    $iosPath = "$PERL_IOS_PREFIX/ios";
-} else {
-    $iosPath = "$abs_path_to_cpan_dir/..";
-}
-
-$iosPath .= "/Build/Products/$XCODE_BUILD_CONFIG";
+my $iosPath = "$PERL_IOS_PREFIX/ios/Build/Products/$XCODE_BUILD_CONFIG";
 
 our %opts = (
     VERSION           => $IOS_VERSION,
@@ -235,8 +199,6 @@ our %opts = (
     PREREQ_PM         => {},
 
     AUTHOR            => 'Sherm Pendley <sherm.pendley@gmail.com>',
-
-    #XSOPT             => "-typemap $IOS_CPAN_DIR/typemap",
     XSOPT             => "-typemap $PERL_IOS_PREFIX/perl-$PERL_VERSION/ext/ios-$IOS_VERSION/typemap",
 
     LIBS              => [ '-lobjc'],
