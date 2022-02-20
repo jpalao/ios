@@ -183,7 +183,7 @@ if (!defined $ARCHFLAGS || !length $ARCHFLAGS) {
     chomp $ARCHFLAGS;
 }
 
-$ARCHFLAGS .= "$perl_link_flags -ObjC -lobjc -framework ios"
+$ARCHFLAGS .= "$perl_link_flags -ObjC -lobjc -framework ios";
 
 $PERL_INCLUDE_DIR = $Config{archlib}. "/CORE"
     if (!defined $PERL_INCLUDE_DIR || !length $PERL_INCLUDE_DIR);
